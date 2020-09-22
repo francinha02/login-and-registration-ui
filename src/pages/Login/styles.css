@@ -1,0 +1,21 @@
+#page-login {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--color-title-in-primary);
+  background: var(--color-primary);
+}
+
+.title {
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+hr {
+  margin-top: 3.2rem;
+  color: #d8d8d8;
+}

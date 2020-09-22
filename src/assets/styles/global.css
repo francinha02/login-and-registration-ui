@@ -1,0 +1,56 @@
+:root {
+  font-size: 60%;
+
+  --color-background: #24252a;
+  --color-primary: #00264b;
+  --color-primary-dark: #001b37;
+  --color-primary-darker: #001122;
+  --color-secondary: #24252a;
+  --color-secondary-dark: #141518;
+  --color-title-in-primary: #ffffff;
+  --color-text-in-primary: #d5d5d5;
+  --color-text-base: #ffffff;
+  --color-button-text: #ffffff;
+  --color-box-base: #ffffff;
+  --color-box-footer: #fafafc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Poppins;
+}
+
+.container {
+  width: 90vw;
+  max-width: 700px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
