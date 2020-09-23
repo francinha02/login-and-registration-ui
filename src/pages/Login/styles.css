@@ -4,7 +4,7 @@
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 
   color: var(--color-title-in-primary);
   background: var(--color-primary);
@@ -16,6 +16,30 @@
 }
 
 hr {
-  margin-top: 3.2rem;
+  margin: 3.2rem 0;
   color: #d8d8d8;
+  opacity: 0.28;
+}
+
+hr.rounded {
+  border-top: 1px solid var(--color-box-base);
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 25px;
+  width: 90%;
+  color: var(--color-button-text);
+  background: var(--color-button-back);
+  border: none;
+}
+
+.buttons-container {
+  text-align: center;
+}
+
+.facebook {
+  margin-top: 10px;
+  background: #2966c3;
 }
