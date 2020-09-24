@@ -1,4 +1,5 @@
 import React from "react";
+import FacebookButton from "../../components/FacebookButton";
 import "./styles.css";
 
 export default function Login() {
@@ -9,7 +10,7 @@ export default function Login() {
         <hr className="rounded" />
         <div className="buttons-container">
           <button>SIGN UP WITH EMAIL</button>
-          <button className="facebook">SIGN UP WITH FACEBOOK</button>
+          <FacebookButton title="SIGN UP WITH FACEBOOK" />
         </div>
         <hr className="rounded" />
       </div>
